@@ -8,6 +8,10 @@ This project explores how a modern SaaS product can communicate its value throug
 
 The design combines a dark visual aesthetic, subtle purple gradients, smooth transitions, and responsive layouts to create a polished user experience.
 
+## Design Explanation
+
+The landing page features a clean, minimal, dark-themed design inspired by Linear’s modern SaaS aesthetic. Subtle purple gradients, smooth animations, and carefully spaced layouts create a polished visual experience. The page is fully responsive, with intuitive navigation and interactive sections for features, pricing, and contact. The goal was to deliver a simple, professional, and user-friendly experience.
+
 ## 🚀 Features
 
 - **Responsive Navbar** — Desktop navigation and mobile menu.
