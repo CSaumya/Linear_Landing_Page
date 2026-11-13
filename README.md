@@ -70,53 +70,6 @@ Linear/
 └── vite.config.ts
 ```
 
-## ⚙️ Getting Started
-
-### Prerequisites
-
-- Node.js 20 or later
-- npm
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/CSaumya/Linear_Landing_Page.git
-```
-
-2. Navigate into the project:
-
-```bash
-cd linear-landing-page
-```
-
-3. Install dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
-
-5. Open the local URL provided by Vite.
-
-### Production Build
-
-```bash
-npm run build
-```
-
-Preview the production build:
-
-```bash
-npm run preview
-```
-
 ## 📱 Responsiveness
 
 The landing page is designed to work across:
