@@ -1,75 +1,148 @@
-# React + TypeScript + Vite
+# ✦ Linear — SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive SaaS landing page inspired by Linear's minimal design philosophy. Built with React, TypeScript, and Tailwind CSS, featuring smooth animations, interactive pricing, and a clean dark interface.
 
-Currently, two official plugins are available:
+## ✨ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project explores how a modern SaaS product can communicate its value through thoughtful UI design, clear content hierarchy, and engaging interactions.
 
-## React Compiler
+The design combines a dark visual aesthetic, subtle purple gradients, smooth transitions, and responsive layouts to create a polished user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Responsive Navbar** — Desktop navigation and mobile menu.
+- **Hero Section** — Product introduction with a dashboard preview and CTA buttons.
+- **Brand Showcase** — Animated horizontal logo carousel on smaller screens.
+- **Features Section** — Highlighting key product capabilities.
+- **How It Works** — Three-step product workflow.
+- **Pricing Section** — Interactive monthly/yearly billing toggle with pricing cards.
+- **Contact Form** — Input validation and submission success state.
+- **Footer** — Navigation links and social media icons.
+- **Smooth Animations** — Scroll-based entrance animations and hover interactions.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Technology | Purpose |
+|---|---|
+| React 19 | UI development |
+| TypeScript | Type safety |
+| Vite | Development and build tooling |
+| Tailwind CSS v4 | Styling and responsive layouts |
+| Framer Motion | Animations and transitions |
+| Lucide React | Interface icons |
+| React Icons | Brand icons |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🎨 Design Direction
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Dark-first interface with a minimal aesthetic.
+- Neutral backgrounds and subtle borders.
+- Purple and blue gradient accents.
+- Consistent spacing, typography, and rounded components.
+- Responsive layouts across desktop, tablet, and mobile.
 
+## 📂 Project Structure
+
+```text
+Linear/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── BrandLogos.tsx
+│   │   ├── Features.tsx
+│   │   ├── HowItWorks.tsx
+│   │   ├── Pricing.tsx
+│   │   ├── Contact.tsx
+│   │   └── Footer.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ Getting Started
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Prerequisites
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js 20 or later
+- npm
 
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/CSaumya/Linear_Landing_Page.git
 ```
+
+2. Navigate into the project:
+
+```bash
+cd linear-landing-page
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL provided by Vite.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## 📱 Responsiveness
+
+The landing page is designed to work across:
+
+- Desktop screens
+- Tablets
+- Mobile devices
+
+Mobile navigation, responsive grids, and the brand carousel adapt to smaller screen sizes.
+
+## 🔮 Possible Improvements
+
+- Connect the contact form to a backend or email service.
+- Add functional authentication flows.
+- Integrate real analytics and dashboard data.
+- Add theme switching.
+- Improve accessibility and keyboard navigation.
+
+## ⚠️ Disclaimer
+
+This is an independent, educational UI recreation inspired by Linear's design approach. It is not affiliated with, endorsed by, or an official product of Linear. Pricing and product content are illustrative. No actual payments or contact submissions are processed.
+
+## 👩‍💻 Author
+
+**Saumya Chaudhary**
+
+- GitHub: [@CSaumya](https://github.com/CSaumya)
+- LinkedIn: [Saumya Chaudhary](https://linkedin.com/in/saumya--chaudhary/)
+
+---
+
+<p align="center">
+  Built with ☕, creativity, and a little obsession with good UI.
+</p>
