@@ -45,6 +45,7 @@ The design combines a dark visual aesthetic, subtle purple gradients, smooth tra
 ```text
 Linear/
 ├── public/
+    |──Screenshots/
 ├── src/
 │   ├── assets/
 │   ├── components/
