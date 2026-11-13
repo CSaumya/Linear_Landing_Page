@@ -77,7 +77,7 @@ Linear/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/CSaumya/linear-landing-page.git
+git clone https://github.com/CSaumya/Linear_Landing_Page.git
 ```
 
 2. Navigate into the project:
